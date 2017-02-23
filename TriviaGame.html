@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Time Out For Trivia</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/reset.css">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+
+  
+</head>
+<body>
+
+  <!-- Bootstrap Grid Container -->
+  <div class="container">
+
+  <!-- Jumbtron Code -->
+  <div row>
+  <div class="jumbotron">
+  <h1>Time Out For Trivia</h1>
+  </div> 
+  </div>
+
+  <!-- Display the trivia timer -->
+
+  <div row class="timer">
+
+  <h1>Time Remaining: <span id="timer"></span></h1>
+
+  </div>
+
+<!--   List the question -->
+
+   <div row class="q1"><span id="q1"></span></div>
+
+   <!-- List the answer choices -->
+
+    <div row class="answers">
+      <button type="button" class="btn btn-secondary"><span id="a1"></span></button>
+      <button type="button" class="btn btn-secondary"><span id="a2"></span></button>
+      <button type="button" class="btn btn-secondary"><span id="a3"></span></button>
+      <button type="button" class="btn btn-secondary"><span id="a4"></span></button>
+    </div>
+
+    
+
+  
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+    <!-- Script -->
+    <script src="assets\javascript\Timer.js"></script>
+
+    </div> <!-- Container -->
+
+  </body>
+
+</html>
